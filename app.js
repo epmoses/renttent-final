@@ -10,6 +10,7 @@ var methodOverride = require("method-override");
 var Campground = require("./models/campground");
 var Comment = require("./models/comment");
 var User = require("./models/user");
+const port = process.env.PORT || 3000;
 
 // ROUTE FILES
 var indexRoutes = require("./routes/index");
@@ -53,6 +54,6 @@ app.use("/campgrounds", campgroundRoutes);
 app.use("/campgrounds/:id/comments", commentRoutes);
 
 // PORT
-app.listen(3000, function(){
-    console.log("Server has started");
+app.listen(port, () => {
+    console.log(`Server is up on ${port}`)
 });

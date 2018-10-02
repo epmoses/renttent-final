@@ -30,7 +30,7 @@ Once the user clicks, "View All Campgrounds," they are directed to the show page
 If a user clicks "More Info," they are directed to the view of the individual campground page. If the campground was created by that user, then they also have the option to edit or delete the campground. This is where they would edit the campground, view, or add a comment. Like campgrounds, users can only edit comments they create.
 
 ## Try it out
-Here's a working example:
+Here's a working example: https://tranquil-plateau-21465.herokuapp.com/
 
 Note: Please be nice. 
 
