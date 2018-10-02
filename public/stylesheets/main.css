@@ -1,0 +1,55 @@
+body {background-color: #ebf5ff;}
+.jumbotron {background-color: white !important;}
+
+/* Buttons */
+.btn-primary,
+.btn-success {
+    background-color: #74b9ff !important;
+    border: #74b9ff !important;
+}
+
+.back-btn {
+    list-style: none;
+    color: #74b9ff;
+}
+
+.back-btn:hover,
+.back-btn:active {
+    color: #52a8ff;
+}
+
+/* Forms */
+.main-form {
+    width: 30%;
+    margin: 25px auto;
+}
+
+@media only screen and (max-width: 766px){
+    .main-form {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .main-form {
+        width: 80%;
+    }
+}
+
+.comment-form {
+    width: 50%;
+    margin: 25px auto;
+}
+
+.delete-form {display: inline;}
+
+/* Show Page */
+.show-page {
+    width: 80%;
+    margin: 25px auto;
+}
+
+.thumbnail {padding: 0;}
+.thumbnail img {width: 100%;}
+.thumbnail .caption-full {padding: 9px;}
+
