@@ -4,9 +4,22 @@
 ![](https://github.com/epmoses/renttent-final/blob/master/img/landing-page-min.png)
 
 
-RentTent is an user interactive, mock campground rental service. Its purpose is to demonstrate my knowledge of Node.js, RESTful routing, Express, MongoDB, and related dependencies.
+RentTent is an user interactive, MVC model campground rental service. Its purpose is to demonstrate my knowledge of Node.js, RESTful routing, Express, MongoDB, and related dependencies.
 
 ## Features
+
+* Bootstrap 4
+* CSS background animations
+* MVC application
+* RESTful routing
+* User Authentication
+* Admin Authentication
+* Flash messages
+* Express sessions
+* MongoDB
+
+
+## Technologies Used
 
 **Front-end:** Bootstrap 4, Modernizr, EJS
 
@@ -15,6 +28,7 @@ RentTent is an user interactive, mock campground rental service. Its purpose is 
 **Back-end:** Node.js
 
 **NPM Packages/Dependencies:** Body parser, Connect flash, Express, Express session, Method override, Mongoose, Passport, Passport local, Passport local mongoose
+
 
 ## How it Works
 
@@ -36,4 +50,4 @@ Note: Please be nice.
 
 ### Acknowledgments
 
-This app is a modified version of Colt Steele's YelpCamp app from his Web Developer Bootcamp course. 
+This app is a modified version of Colt Steele's YelpCamp app from his Web Developer Bootcamp course. Styling, migrating to Bootstrap 4 and other new features have been added.
